@@ -7,12 +7,14 @@ TABLE_SCHEMA = """
       species text not null,
       age integer not null
     );
+
     CREATE TABLE people ( 
       person_id integer,
       name text not null,
       age integer not null,
       favorite_color text not null
     );
+
     CREATE TABLE people_animals (
       owner_id integer not null,
       pet_id integer not null
